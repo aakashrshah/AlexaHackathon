@@ -1,0 +1,35 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "LIST_OF_COMMANDS",
+        "values": []
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "CommandIntent",
+        "samples": [],
+        "slots": [
+          {
+            "name": "Command",
+            "type": "LIST_OF_COMMANDS"
+          }
+        ]
+      }
+    ],
+    "invocationName": "hey alex"
+  }
+}
